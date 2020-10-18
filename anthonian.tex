@@ -1,0 +1,133 @@
+% Created with <3 by Anthony Kung %
+% On August 23rd for ENGR 202 @ OSU %
+
+% Define Document %
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[legalpaper, margin=0.5in]{geometry}
+
+% Get Rid Of Numbering %
+% \pagenumbering{gobble} %
+
+% No Paragraph Indent %
+\setlength{\parindent}{0pt}
+
+% Images Setup %
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+
+% Define Colors %
+\usepackage[dvipsnames]{xcolor}
+\definecolor{DeepPink}{HTML}{FF1493}
+\definecolor{RoyalBlue}{HTML}{4169E1}
+\definecolor{DodgerBlue}{HTML}{1E90FF}
+\definecolor{Background}{HTML}{212121}
+
+% Color Setup %
+% Dark Theme %
+\pagecolor{Background}
+\color{white}
+
+% Font Setup %
+\usepackage{tgbonum}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Caption Setup %
+\usepackage{caption}
+\usepackage[font={color=white},figurename=Figure]{caption}
+\captionsetup{belowskip=-40pt}
+
+% List of Figures Format %
+% \renewcommand{\listfigurename}{ %
+
+% Footer %
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\centering\textcolor{white}{Page \thepage}}
+
+% Hyperlink Setup %
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    filecolor=DeepPink,      
+    urlcolor=cyan,
+    pdftitle={Dark Theme LaTex},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+% Preamble %
+\title{Dark Theme LaTex}
+\author{
+  Anthony Kung
+}
+\date{August 23, 2020}
+
+% Actual Document %
+\begin{document}
+
+\fontfamily{qag}\selectfont
+
+ENGR 202
+\hfill
+Anthony Kung
+
+Dark Theme LaTex
+\hfill
+08-08-2020
+
+\begin{center}
+  \large\textbf{Dark Theme LaTex}
+  \\
+\end{center}
+
+\tableofcontents
+
+\setlength{\parskip}{1em}
+
+\section{\textbf{\textit{Introduction}}}
+
+The Dark Theme LaTex is a awesome looking dark theme LaTex template originally designed for Engineering 202 class at Oregon State University. The original document is on GitHub however, due to the fact that this is a class assignment the repo is private (sorry :C)
+
+\section{\textbf{\textit{Usage}}}
+
+\subsection{\textbf{\textit{Where Does Document Starts}}}
+
+Document starts at [Line 74] everything after [Line 74] should be changed.
+
+\subsection{\textbf{\textit{Stuff To Change}}}
+
+A list of things to change at line number:
+
+\begin{enumerate}
+  \item [Line 57] >:[ Dark Theme LaTex ]:<
+  \item [Line 63] >:[ Dark Theme LaTex ]:<
+  \item [Line 65] >:[ Anthony Kung ]:<
+  \item [Line 67] >:[ August 23, 2020 ]:<
+  \item [Line 128] >:[ Dark Theme LaTex ]:<
+  \item [Line 129] >:[ Dark Theme LaTex GitHub Repo: ]:<
+  \item [Line 131] >:[ https://github.com/Anthonykung/Dark-Theme-Latex ]:<
+\end{enumerate}
+
+\section{\textbf{\textit{Why It's Awesome?}}}
+
+Here's some of the reason why this is awesome:
+
+\begin{enumerate}
+  \item It's dark theme, duh
+  \item It looks super fancy, ever seen a dark theme PDF?
+  \item Impress your professor, got an A on this paper :P
+\end{enumerate}
+
+\listoffigures
+
+\begin{thebibliography}{9}
+  \bibitem{Dark Theme LaTex} 
+  Dark Theme LaTex GitHub Repo:
+  \\
+  \url{https://github.com/Anthonykung/Dark-Theme-Latex}
+
+\end{document}
