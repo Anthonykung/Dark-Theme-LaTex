@@ -12,13 +12,15 @@ Document starts at [Line 74] everything after [Line 74] until [Line 124] should 
 
 A list of things to change at line number:
 
-[Line 57] >:[ Dark Theme LaTex ]:<
-[Line 63] >:[ Dark Theme LaTex ]:<
-[Line 65] >:[ Anthony Kung ]:<
-[Line 67] >:[ August 23, 2020 ]:<
-[Line 128] >:[ Dark Theme LaTex ]:<
-[Line 129] >:[ Dark Theme LaTex GitHub Repo: ]:<
-[Line 131] >:[ https://github.com/Anthonykung/Dark-Theme-Latex ]:<
+| Line Number |                      Text To Change                     |
+|:-----------:|:-------------------------------------------------------:|
+|  [Line 57]  |                 >:[ Dark Theme LaTex ]:<                |
+|  [Line 63]  |                 >:[ Dark Theme LaTex ]:<                |
+|  [Line 65]  |                   >:[ Anthony Kung ]:<                  |
+|  [Line 67]  |                 >:[ August 23, 2020 ]:<                 |
+|  [Line 128] |                 >:[ Dark Theme LaTex ]:<                |
+|  [Line 129] |          >:[ Dark Theme LaTex GitHub Repo: ]:<          |
+|  [Line 131] | >:[ https://github.com/Anthonykung/Dark-Theme-Latex ]:< |
 
 ## License
 
