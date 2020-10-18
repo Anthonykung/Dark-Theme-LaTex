@@ -1,0 +1,12 @@
+# Dark Theme LaTex
+# Created with <3 by Anthony Kung (anth.dev)
+# Date: October 18, 2020
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.out
+*.synctex.gz
+*.toc
